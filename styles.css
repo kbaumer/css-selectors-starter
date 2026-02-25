@@ -224,7 +224,7 @@ link:focus {
     select the main element by tag name
 */
 /* ----- */
-{
+main {
     width: 100%;
     max-width: 1200px;
     margin: 2rem auto;
@@ -242,7 +242,7 @@ link:focus {
     select the sections on the page that are direct descendants to the main by tag names and using the direct descendant selector
 */
 /* ----- */
-{
+main > section {
     display: block;
     width: calc(100% - 2rem);
     max-width: calc(500px - 2rem);
@@ -262,7 +262,7 @@ TO DO:
 select the paragraph elements by tag name
 */
 /* ----- */
-{
+p {
     padding: 1rem; 
     font-size: 1.2rem;
     max-width: 65ch;
@@ -278,7 +278,7 @@ select the paragraph elements by tag name
     select the images and SVGs by tag names
 */
 /* ----- */
-{
+img, svg {
     display: block;
     width: 100%;
     height: auto;
@@ -293,7 +293,7 @@ TO DO:
 select all of the spans by tag name
 */
 /* ----- */
-{
+span {
     display: block;
 }
 
@@ -309,7 +309,7 @@ select all of the spans by tag name
     select the h2 in the first section using the ID, tag name, and child/descendant selectors
 */
 /* ----- */
-{
+#image h2 {
     padding: 12px 0;
     background-color: var(--blue);
     color: var(--white);
@@ -324,7 +324,7 @@ select all of the spans by tag name
     select the h2 in the second section using the ID, tag name, and child/descendant selectors
 */
 /* ----- */
-{
+#nav h2 {
     padding: 12px 0;
     background-color: var(--green);
     color: var(--white);
@@ -336,7 +336,7 @@ select all of the spans by tag name
     select the unordered list in the navigation using the tag names and child/descendant selector
 */
 /* ----- */
-{
+#nav ul {
     display: block;
     list-style-type: none;
     padding: 0;
