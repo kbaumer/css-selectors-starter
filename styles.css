@@ -79,7 +79,7 @@ h1 {
     select the body by its tag name
 */
 /* ----- */
-{
+body {
     box-sizing: border-box;
     background-color: var(--lt-gray);
 }
