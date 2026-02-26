@@ -635,7 +635,7 @@ li:last-child {
     select the third div in the more styling section using the ID, descendant, and class name selectors
 */
 /* ----- */
-#more .third > div:nth-child(3) {
+#more .dashed > div:nth-child(3) {
     width: 200px;
     height: 200px;
     background-color: var(--dv-yellow);
@@ -814,7 +814,7 @@ li:last-child {
     select all of the divs in the border styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
-{
+#borders div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -826,7 +826,7 @@ li:last-child {
     select the first div in the border styling section using the ID, tag name and direct descendant selectors
   */
   /* ----- */
-{
+#borders div:first-of-type {
     width: 300px;
     height: 300px;
     margin: 16px auto;
@@ -839,7 +839,7 @@ li:last-child {
     select the second div in the border styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
-{
+#borders > div:nth-child(2) {
     width: 250px;
     height: 250px;
     border: 6px dotted var(--dv-orange);
@@ -851,7 +851,7 @@ li:last-child {
     select the third div in the border styling section using the ID, descendant, and class name selectors
 */
 /* ----- */
-{
+#borders > div:nth-child(3) {
     width: 200px;
     height: 200px;
     border: 6px dashed var(--dv-yellow);
@@ -863,7 +863,7 @@ li:last-child {
     select the fourth div in the pseudo-class styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
-{
+#borders > div:nth-child(4) {
     width: 150px;
     height: 150px;
     border: 6px double var(--dv-mint);
@@ -875,7 +875,7 @@ li:last-child {
     select the last div in the more styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
-{
+#borders div:last-of-type {
     width: 100px;
     height: 100px;
     border: 6px inset var(--dv-lt-blue);
